@@ -8,7 +8,7 @@ namespace ScpSpawnAdjuster;
 public class Plugin : Plugin<Config> {
     static Plugin? Instance;
 
-    public override string Name => "SCP Spawn Adjuster";
+    public override string Name => "ScpSpawnAdjuster";
     public override string Author => "Zawadzki Wielki";
     public override string Prefix { get; } = "ScpSpawnAdjuster";
     public override Version Version => new Version(1, 0, 0);
