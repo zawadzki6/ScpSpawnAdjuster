@@ -8,7 +8,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="ExMod.Exiled" Version="9.6.0" />
+    <PackageReference Include="ExMod.Exiled" Version="9.6.0" Private="false" />
   </ItemGroup>
+
+<ItemGroup>
+  <Reference Include="UnityEngine.CoreModule" HintPath="dependencies/UnityEngine.CoreModule.dll" Private="false" />
+  <Reference Include="Assembly-CSharp-firstpass" HintPath="dependencies/Assembly-CSharp-firstpass.dll" Private="false" />
+</ItemGroup>
 
 </Project>
